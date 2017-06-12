@@ -1,0 +1,22 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "fun tweets yo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knightofknee/twitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knightofknee/twitter/issues"
+  },
+  "homepage": "https://github.com/knightofknee/twitter#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
