@@ -19,6 +19,7 @@
   "homepage": "https://github.com/knightofknee/twitter#readme",
   "dependencies": {
     "express": "^4.15.3",
+    "lodash": "^4.17.4",
     "morgan": "^1.8.2",
     "nunjucks": "^3.0.1",
     "volleyball": "^1.4.1"
