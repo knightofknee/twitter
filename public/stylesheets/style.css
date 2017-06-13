@@ -1,6 +1,8 @@
 html,
 body {
   height: 100%;
+
+  background-color: #B0F566
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -56,4 +58,19 @@ code {
 }
 .content .by {
   font-weight: bold;
+}
+
+#twitName {
+  background-color: #F78AE0
+}
+
+#twitContent{
+  background-color: #4AF2A1
+}
+
+#tweetsDiv{
+  background-color: white;
+  margin: 4px,4px,0,0;
+  border: 2px;
+  border-color: black
 }

@@ -9,6 +9,8 @@ const routes = require('./routes')
 const app = express()
 
 
+
+
 app.engine('html', nunjucks.render);
 app.set('view engine', 'html')
 app.use(volleyball)
@@ -22,9 +24,12 @@ nunjucks.configure('views', {
   noCache: true
 });
 
-app.get('/', function(req, res) {
-  res.render( 'index');
-})
+// app.get('/', function(req, res) {
+
+//   console.log('line 28')
+//   res.render( 'index');
+// })
+
 
 // app.get('/stylesheets/style.css', function(req, res) {
 // res.sendFile( './stylesheets/style.css')

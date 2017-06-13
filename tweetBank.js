@@ -1,5 +1,5 @@
 const _ = require('lodash')
-var data = [{name: 'Nimit', data: "Nimit is great"}];
+var data = [{name: 'nimit', content: "Nimit is great"},{name: 'nimit', content:"Nimit needs no sleep"}];
 
 function add (name, content) {
   data.push({ name: name, content: content });
